@@ -12,7 +12,7 @@ function App() {
   return (
     <div style={styles.container}>
       <div style={styles.card}>
-        <h1 style={styles.title}>💬 Message Wall</h1>
+        <h1 style={styles.title}>💬 say something about lokendra:</h1>
 
         <Form handleIsUpdate={handleIsUpdate} />
         <Memberslist isupdate={isupdate} />
